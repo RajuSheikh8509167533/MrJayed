@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+header {
+    width: 100vw;
+    hight: 100vh;
+
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/wbwark.jpg);
+height: 100vh;
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+.header-content{
+margin-bottom: 150px;
+color:whitesmoke;
+text-align: center;
+ 
+}
+.header-conten h2{
+    font-size:4vmin;
+}
+.header-conten h1{
+    font: size 7vwin;
+    margin-top: 50px;
+    margin-bottom:30px;
+}
+ul{
+    list-style: none;
+}
+.navber{
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color:beige;
+
+
+
+}
